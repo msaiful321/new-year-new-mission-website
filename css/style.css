@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1600px;
+}
+
+/* banner section start */
+.banner-container {
+  background-image: url("../images/banner-image.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: 50px auto 120px;
+  display: flex; /* for aligning child horizontally */
+  justify-content: center; /* for horizontally center */
+  align-items: center; /* for vertically center */
+}
+
+.banner-text {
+  font-family: Merriweather;
+  text-align: center;
+  color: #ffffff;
+  /*padding: 177px 0;*/
+}
+
+.happy {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.new {
+  font-size: 72px;
+  font-weight: 900;
+}
+/* banner section end */
