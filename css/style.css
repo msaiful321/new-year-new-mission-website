@@ -119,3 +119,38 @@ body {
   margin-left: 95px;
 }
 /* party section end */
+
+/* park section start */
+.park-container {
+  background-image: url("../images/park-bg.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto 120px;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.park-text {
+  padding: 100px 0 48px;
+  line-height: 55px;
+}
+
+.place span {
+  color: #ff0000;
+}
+
+.join-now {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #ff0000;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px 16px 32px;
+}
+/* park section end */
