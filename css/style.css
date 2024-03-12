@@ -71,3 +71,51 @@ body {
   margin-bottom: 48px;
 }
 /* all section start */
+
+/* party section start */
+.party-container {
+  background-image: url("../images/party-bg.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto 120px;
+  display: flex; /* for aligning child horizontally */
+  justify-content: center; /* for horizontally center */
+  align-items: center; /* for vertically center */
+}
+
+.party-text {
+  color: #ffffff;
+}
+
+.midnight {
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+
+.dolor {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+.join {
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 32px;
+}
+
+.twenty-four {
+  margin-left: 95px;
+}
+/* party section end */
