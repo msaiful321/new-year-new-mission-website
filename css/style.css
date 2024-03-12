@@ -154,3 +154,54 @@ body {
   padding: 16px 32px 16px 32px;
 }
 /* park section end */
+
+/* offer section start */
+.offer-container {
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto 120px;
+  display: flex;
+  align-items: center;
+}
+
+.best {
+  color: #ff0000;
+  font-family: Inter, "Source Sans Pro";
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.soon {
+  color: #070211;
+  font-family: Merriweather, "Source Sans Pro";
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.ipsum {
+  color: #6a6770;
+  font-family: Inter, "Source Sans Pro";
+  font-size: 20px;
+}
+
+.offer-middle {
+  margin-right: 118px;
+  margin-left: 70px;
+}
+
+.offer-2024 {
+  font-family: Inter, "Source Sans Pro";
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+
+.sit {
+  font-family: Inter, "Source Sans Pro";
+  font-size: 20px;
+  color: #6a6770;
+  margin-bottom: 43px;
+}
+/* offer section end */
