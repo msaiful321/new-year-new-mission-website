@@ -290,3 +290,66 @@ body {
   margin: 0 24px;
 }
 /* portfolio section start */
+
+/* subscribe section start */
+.subscribe-container {
+  background-image: url("../images/subscribe-bg.png");
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 616px;
+  margin: 0 auto 120px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-row {
+  width: 896px;
+}
+
+.subscribe-row h3 {
+  font-family: Merriweather, "Source Sans Pro";
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.subscribe-row p {
+  font-family: Inter, "Source Sans Pro";
+  font-size: 20px;
+  color: #6a6770;
+  margin-bottom: 48px;
+}
+
+input {
+  width: 438px;
+  height: 72px;
+  font-family: Inter;
+  font-size: 18px;
+  color: #6a6770;
+  padding: 0 30px;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  outline: none;
+}
+
+button {
+  background-color: #ff0000;
+  width: 210px;
+  height: 72px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 0 30px;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  left: -5px;
+}
+/* subscribe section end */
