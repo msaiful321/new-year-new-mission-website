@@ -353,3 +353,76 @@ button {
   left: -5px;
 }
 /* subscribe section end */
+
+/* footer section start */
+footer {
+  background-image: url("../images/footer-bg.png");
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 609px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+address {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  color: #ffffff;
+  margin-right: 559px;
+}
+
+.footer-row {
+  display: flex;
+}
+
+.contact {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.contact img {
+  margin-right: 16px;
+}
+
+hr {
+  margin: 50px 0 50px 0;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-right: 24px;
+}
+
+li:nth-child(4) {
+  margin-right: 0;
+}
+
+.copyright {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  display: flex;
+}
+
+.reserved {
+  margin-right: 880px;
+}
+/* footer section end */
