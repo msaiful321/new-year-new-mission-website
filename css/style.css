@@ -205,3 +205,45 @@ body {
   margin-bottom: 43px;
 }
 /* offer section end */
+
+/* holyday section start */
+.holyday-container {
+  width: 1320px;
+  margin: 0 auto 120px;
+}
+
+.holyday-text {
+  text-align: center;
+  width: 1068px;
+  margin: 0 auto;
+}
+
+.functional {
+  font-family: Inter, "Source Sans Pro";
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.sale {
+  font-family: Merriweather, "Source Sans Pro";
+  font-size: 72px;
+  margin-bottom: 28px;
+}
+
+.sale span {
+  color: #ff0000;
+}
+
+.sale-description {
+  font-family: Inter, "Source Sans Pro";
+  font-size: 20px;
+  color: #6a6770;
+  margin-bottom: 64px;
+}
+
+.holyday-container img {
+  border: 2px dashed #6a6770;
+  border-radius: 20px;
+}
+/* holyday section end */
